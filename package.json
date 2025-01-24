@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-yesimbot-training-toolkit",
+  "description": "使用 yesimbot 格式从聊群收集聊天记录并生成模型微调数据集。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.3"
+  }
+}

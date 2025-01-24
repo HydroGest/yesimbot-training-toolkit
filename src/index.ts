@@ -227,7 +227,7 @@ export function apply(ctx: Context, config: Config) {
                                 if (writeErr) {
                                     ctx.logger.error('写入文件时出错:', writeErr);
                                 } else {
-                                    ctx.logger.info('文件已成功更新');
+                                    console.log('文件已成功更新');
                                 }
                             });
                         } catch (parseErr) {
